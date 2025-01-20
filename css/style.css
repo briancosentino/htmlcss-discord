@@ -1,9 +1,19 @@
+:root{
+    --ds-primary-light: #fff;
+    --ds-primary-dark: #23272A;
+    --ds-waves: #f6f6f6;
+    --ds-nav: #3161E0;
+    --ds-cta-btn: #8EA1E1;
+    --ds-footer-txt: #7289DA;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Inter";
+
+}
 
 .debug{
     nav{
@@ -75,15 +85,31 @@
 nav{
     width: 100%;
     padding: 1rem 0;
+    background-color: var(--ds-nav);
    
 }
 .nav-content{
-    width: 60%;
+    width: 70%;
     margin: auto;
     div{
         padding: 0.5em;
     }
+    align-items: center;
+    color: var(--ds-primary-light);
+    font-size: 0.9rem;
     
+}
+.nav-btn{
+    background-color: var(--ds-primary-light);
+    padding: 0.6rem 0.7rem;
+    border: none;
+    border-radius: 1.2rem;
+    font-size: 0.8rem;
+}
+button {
+    padding: 0.6rem 1rem;
+    border-radius: 1.2rem;
+    border: none;
 }
 
 .d-flex{
@@ -108,11 +134,33 @@ nav{
 .hero{
     width: 100%;
     padding: 2rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 3rem 0 5rem 0;
 }
 .hero-content{
     width: 50%;
     margin: auto;
-    min-height: 15rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--ds-primary-light);
+    
+    h1{
+        margin-bottom: 1.4rem;
+    }
+    p{
+        font-size: .9rem;
+        margin-bottom: 1.2rem;
+    }
+    button:first-of-type{
+        background-color: var(--ds-primary-light);
+        margin-right: .5rem;
+    }
+    button:last-of-type{
+        background-color: var(--ds-primary-dark);
+        color: var(--ds-primary-light);
+        margin-left: .5rem;
+    }
 }
 .main-section{
     padding: 2rem;
