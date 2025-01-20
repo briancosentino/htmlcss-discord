@@ -133,7 +133,6 @@ button {
 }
 .hero{
     width: 100%;
-    padding: 2rem;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 3rem 0 5rem 0;
@@ -142,7 +141,7 @@ button {
     width: 50%;
     margin: auto;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--ds-primary-light);
     
     h1{
@@ -163,19 +162,32 @@ button {
     }
 }
 .main-section{
-    padding: 2rem;
+    padding: 4rem;
 }
 .section-content{
     width: 60%;
     min-height: 23rem;
-    align-items: stretch;
+    gap: 1.5rem;
     margin: auto;
 }
 .section-img{
     width: 60%;
+    margin-top: -1.3rem;
+    img{
+        max-width: 100%;
+    }
+    align-self: flex-start;
 }
 .section-description{
     width: 40%;
+    h2{
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: .8rem;
+        line-height: 1.1rem;
+
+    }
 }
 .reverse{
     flex-direction: row-reverse;
