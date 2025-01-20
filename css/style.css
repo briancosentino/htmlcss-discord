@@ -162,11 +162,10 @@ button {
     }
 }
 .main-section{
-    padding: 4rem;
+    padding: 6rem;
 }
 .section-content{
     width: 60%;
-    min-height: 23rem;
     gap: 1.5rem;
     margin: auto;
 }
@@ -176,7 +175,7 @@ button {
     img{
         max-width: 100%;
     }
-    align-self: flex-start;
+    
 }
 .section-description{
     width: 40%;
@@ -192,8 +191,23 @@ button {
 .reverse{
     flex-direction: row-reverse;
 }
+.wave{
+    width: 100%;
+    background-image: url(../img/wave\ 2.svg);
+    height: 5rem;
+}
+.wave-rotate{
+    width: 100%;
+    background-image: url(../img/wave\ 2.svg);
+    height: 5rem;
+    transform: rotate(180deg);
+   
+
+}
 .main-section-reverse{
-    padding: 2rem;
+    padding: 5rem;
+    background-color: var(--ds-waves);
+    align-items: center;
 }
 .technology-content{
     min-height: 45rem;
