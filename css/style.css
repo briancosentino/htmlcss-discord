@@ -209,10 +209,38 @@ button {
     background-color: var(--ds-waves);
     align-items: center;
 }
+#technology{
+    background-color: var(--ds-waves);
+    text-align: center;
+    h2{
+        margin-bottom: 1rem;
+    }
+    img{
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}
 .technology-content{
-    min-height: 45rem;
+    
     margin: auto;
     width: 60%;
+    
+}
+.cta-content{
+    
+    h3{
+        margin-bottom: 1.8rem;
+        line-height: .5rem;
+    }
+    button{
+        background-color: var(--ds-cta-btn);
+        color: var(--ds-primary-light);
+    }
+    #stars{
+        
+        max-width: 100%;
+        margin: 0;
+    }
 }
 .footer-link{
     padding: 1rem 2rem 2rem 2rem;
